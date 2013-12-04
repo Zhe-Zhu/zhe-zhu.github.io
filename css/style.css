@@ -114,11 +114,11 @@ a:hover {
 
 #terms h1{
 	font-family: 'quicksand', sans-serif;
-	color: #48b0bf;
+	color: #333333;
 	font-size: 40px;
 	line-height: 48px;
 	font-weight: 300;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 	letter-spacing: -4px;
 }
 
