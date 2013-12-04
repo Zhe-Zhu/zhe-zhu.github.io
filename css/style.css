@@ -112,6 +112,16 @@ a:hover {
 	text-align: center;
 }
 
+#terms h1{
+	font-family: 'quicksand', sans-serif;
+	color: #48b0bf;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 300;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	letter-spacing: -4px;
+}
+
 #terms p {
 	color: #EDF1F1;
 	text-align: center;
@@ -393,6 +403,52 @@ a.thumbnail:hover {
 	background-image: url(../images/androidmarket_hover.png);
 }
 
+/* ------------------------------------------------------------------------ */
+/* SERVICE BOXES
+/* ------------------------------------------------------------------------ */
+.rnr-service-box-center {
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.rnr-service-box-center .rnr-service-box-icon {
+	display: inline-block;
+	text-align: left;
+	margin-right: 220px;
+	/*margin-bottom: 20px;*/
+	/*padding: 40px;*/
+}
+
+.rnr-service-box-icon img {
+	vertical-align: left;
+	margin-right: 300px;
+}
+
+.rnr-service-box-center .rnr-service-box-title {
+	margin-bottom: 5px;
+	text-align: left;
+	display: block;
+	/*color: mediumaquamarine;*/
+	color: #333;
+	/*font-weight: normal;*/
+	font-weight: 600;
+	font-size: 20px;
+}
+.rnr-service-box-center .rnr-service-box-content p {
+	display: block;
+	clear: both;
+	text-align: left;
+}
+.rnr-service-box-content p {
+	display: block;
+	clear: both;
+}
+.container .rnr-service-box-center {
+	border-right: 1px solid #f0f0f0;
+}
+.container [class*="span"]:last-child .rnr-service-box-center {
+	border-right: none;
+}
 
 @media (min-width: 768px)  {
 .animated {
