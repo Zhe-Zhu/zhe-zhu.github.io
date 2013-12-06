@@ -122,11 +122,10 @@ h3 a {
 
 h4 {
 	font-family: : 'Open Sans', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-	font-size: 21px;
-	color: #aaaaaa;
-	font-weight: 200;
-	margin: 0px 0px 0px 0px;
-	-webkit-text-stroke: 0.03em;
+	font-size: 24px;
+	color: #eeeeee;
+	margin: 40px 0px 0px 0px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4), -1px -1px 1px rgba(0, 0, 0, 0.05);
 }
 
 span {
