@@ -1,12 +1,12 @@
 <?php
 // Who you want to recieve the emails from the form.
-$sendto = 'hepek@awerest.com';
+$sendto = 'theashstudio@gmail.com';
 
 // The subject you'll see in your inbox
-$subject = 'A message from Syndicate site';
+$subject = '加入千里内测';
 
 // Message for the user when he/she doesn't fill in the form correctly.
-$errormessage = 'Looks like you are missing some info. Try again.';
+$errormessage = '您似乎少填写了某些信息哦, 请补全再重试.';
 
 //Message for the user when he/she fills in the form correctly.
 $thanks = "Thanks for the email. We'll get back to you as soon as we can.";
