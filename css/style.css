@@ -208,8 +208,12 @@ a:hover {
 }
 /* ==== 4) Features, Gallery and Contact ==== */
 
-#features, #contact, #testimonials {
+#features, #testimonials {
 	background: #ffffff;
+}
+
+#contact {
+	background: #efefef;
 }
 
 #team {
