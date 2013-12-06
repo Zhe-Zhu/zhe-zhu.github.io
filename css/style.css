@@ -72,8 +72,9 @@ body {
 /* ==== 2) Typography ==== */
 
 p {
-	color: #25272B;
+	color: #85929f;
 	margin: 25px 0;
+	font-size: 20px;
 }
 
 h1 {
@@ -113,6 +114,15 @@ h3 {
 }
 
 h3 a {
+	-webkit-text-stroke: 0.03em;
+}
+
+h4 {
+	font-family: : 'Open Sans', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-size: 21px;
+	color: #aaaaaa;
+	font-weight: 200;
+	margin: 0px 0px 0px 0px;
 	-webkit-text-stroke: 0.03em;
 }
 
