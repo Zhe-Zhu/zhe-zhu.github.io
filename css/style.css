@@ -27,12 +27,12 @@ Table of Contents:
 /* ==== 1) Main styles ==== */
 
 ::selection {
-	background: #563d7c;
+	background: #2badad;
 	color: #ffffff;
 }
 
 ::-moz-selection {
-	background: #563d7c;
+	background: #2badad;
 	color: #ffffff;
 }
 
@@ -117,11 +117,11 @@ h3 a {
 }
 
 span {
-	color: #563d7c;
+	color: #2badad;
 }
 
 a {
-	color: #563d7c;
+	color: #2badad;
 }
 
 a:hover {
@@ -255,7 +255,7 @@ blockquote {
 }
 
 blockquote:hover {
-	border-left: 2px solid #563d7c;
+	border-left: 2px solid #2badad;
 }
 
 .form-control, .form-control:focus {
@@ -315,7 +315,7 @@ form .btn {
 }
 
 form .btn {
-	background: #563d7c;
+	background: #2badad;
 	color: #fff;
 	-webkit-transition: all .1s linear;
 	-moz-transition: all .1s linear;
@@ -328,7 +328,7 @@ form .btn:hover {
 }
 
 form .btn:focus {
-	background: #563d7c;
+	background: #2badad;
 	color: #fff;
 	outline: 0px auto transparent;
 	outline-offset: -2px;
@@ -370,7 +370,7 @@ form .btn:focus {
 }
 
 .flowuplabels .fl_wrap.focused .fl_label {
-	color: #563d7c;
+	color: #2badad;
 }
 
 /* ==== 5) Terms and Privacy ==== */
