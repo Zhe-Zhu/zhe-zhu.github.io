@@ -72,10 +72,12 @@ body {
 /* ==== 2) Typography ==== */
 
 p {
-	color: #85929f;
+	font-family: : 'Open Sans', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	color: #A0AAB4;
 	margin: 25px 0;
 	font-size: 20px;
-	font-weight: 500;
+	text-align: justify;
+	line-height: 30px;
 }
 
 h1 {
@@ -499,3 +501,5 @@ form .btn:focus {
 	background: rgba(0, 0, 0, 0.4);
 	color: #fff;
 }
+
+/* ==== 9) Zhe zhu modified === */
