@@ -454,7 +454,7 @@ form .btn:focus {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #563d7c;
+	background-color: #2badad;
 	z-index: 9999;
 	position: fixed;
 }
