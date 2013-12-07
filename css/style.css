@@ -214,6 +214,7 @@ a:hover {
 
 #contact {
 	background: #efefef;
+	border-top: 1px solid #ddd;
 }
 
 #team {
@@ -370,7 +371,7 @@ form .btn:focus {
 .flowuplabels .fl_input {
 	background: none;
 	border: none;
-	border-bottom: 2px solid #f1f2f3;
+	border-bottom: 1px solid #ccc;
 	border-radius: 0;
 	padding: 13px 0 0 0;
 	z-index: 2;
