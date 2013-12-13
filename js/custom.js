@@ -123,6 +123,7 @@ $(document).ready(function() {
 	// $('#contactForm').ajaxForm(options);
 
 	$('#contactForm').ajaxForm(function() {  
+		$("#submit").html('a');
 		var email = $("#email").val();
 		if (email == "") {
 			$(".message").toggle();$(".message").toggle().hide("fast").show("fast");
