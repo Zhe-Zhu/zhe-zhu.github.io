@@ -115,8 +115,8 @@ $(document).ready(function() {
 	});
 
 	var options = {
-		target: '.message .alert',
-		beforeSubmit: showMessage,
+		// target: '.message .alert',
+		beforeSubmit: showMessage
 		// success: showResponse
 		};
 
@@ -124,12 +124,17 @@ $(document).ready(function() {
 
 	// $('#contactForm').ajaxForm(function() { 
 	function showMessage() {
-		$("#submit").html('a');
+		// $("#submit").html('a');
+		$(".message").toggle();
+		$(".message").toggle().hide("fast").show("fast");
+		$(".message .alert").addClass('alert-block alert-danger').removeClass('alert-success');
 		var email = $("#email").val();
+		$("#submit").html(email);
 		// if (email == "") {
-		// 	$(".message").toggle();$(".message").toggle().hide("fast").show("fast");
-	 //        $(".message .alert").addClass('alert-block alert-danger').removeClass('alert-success');			
-		// 	$("#alert_message").html("请填入您的邮箱");
+		// 	$(".message").toggle();
+		// 	// $(".message").toggle().hide("fast").show("fast");
+	 //  //       $(".message .alert").addClass('alert-block alert-danger').removeClass('alert-success');			
+		// 	// $("#alert_message").html("请填入您的邮箱");
 		// }
 		// else {
 		// 	if (valid_email(email)) {
