@@ -120,7 +120,35 @@ $(document).ready(function() {
 		success: showResponse
 		};
 
-	$('#contactForm').ajaxForm(options);
+	// $('#contactForm').ajaxForm(options);
+
+	$('#contactForm').ajaxForm(function() {  
+		var email = $("#email").val();
+		if (email == "") {
+			$(".message").toggle();$(".message").toggle().hide("fast").show("fast");
+	        $(".message .alert").addClass('alert-block alert-danger').removeClass('alert-success');			
+			$("#alert_message").html("请填入您的邮箱");
+		}
+		else {
+			if (valid_email(email)) {
+				$(".message").toggle();
+				$(".message").toggle().hide("fast").show("fast");
+				$(".message .alert").addClass('alert-block alert-success').removeClass('alert-danger');
+				$("#alert_message").html("成功注册");
+				$('#contactForm')[0].reset();
+			}
+			else {
+		       $(".message").toggle();$(".message").toggle().hide("fast").show("fast");
+		       $(".message .alert").addClass('alert-block alert-danger').removeClass('alert-success');
+				$("#alert_message").html("错误的邮箱格式");
+			}
+		}
+    });
+
+    function valid_email(email) {
+		var patten = new RegExp(/^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]+$/);
+		return patten.test(email);
+	}
 
 	function showRequest(formData, jqForm, options) {
 		var queryString = $.param(formData);

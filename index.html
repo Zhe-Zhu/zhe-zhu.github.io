@@ -158,30 +158,24 @@
 						<h2 class="text-center">准备好加入<span>千里</span>的旅程了么?</h2>
 						<h3 class="text-center margin5">目前千里的iOS版正在内测中, 输入你的邮箱即可申请加入我们的内测.</h3>
 						<div class="col-lg-12">
-							<div class="row">
-								<form action="js/sendmail.php" class="form-inline flowuplabels" role="form" method="post" id="contactForm">
-									<div class="form-group col-lg-3 col-md-3 col-sm-6 fl_wrap margin5">
-										<label class="fl_label" for="name">Name:</label>
-										<input type="text" name="name" value="" id="name" class="form-control fl_input">
-									</div>
-									<div class="form-group col-lg-3 col-md-3 col-sm-6 fl_wrap margin5">
-										<label class="fl_label" for="email">Email:</label>
+							<div class="row">						
+								<form method="post" class="form-inline flowuplabels" role="form" id="contactForm">
+									<div class="form-group col-lg-9 col-md-9 col-sm-6 fl_wrap margin5">
+										<label class="fl_label" for="email">您的邮箱:</label>
 										<input type="text" name="email" value="" id="email" class="form-control fl_input">
 									</div>
 									<span class="honeypot form-group col-lg-3 col-md-3 col-sm-6 fl_wrap margin5">
 										<label class="fl_label" for="last">Honeypot:</label>
 										<input type="text" name="last" value="" id="last" class="form-control fl_input">
 									</span>
-									<div class="form-group col-lg-3 col-md-3 col-sm-6 fl_wrap margin5">
-										<label class="fl_label" for="message">Message:</label>
-										<input type="text" name="message" value="" id="message" class="form-control fl_input">
-									</div>
 									<div class="form-group col-lg-3 col-md-3 col-sm-6 margin5">
-										<button type="submit" value="Send" id="submit" class="btn btn-fancy btn-block">Send</button>
+										<button type="submit" value="Send" id="submit" class="btn btn-fancy btn-block">申请内测</button>
 									</div>
 									<div class="form-group col-lg-12 col-sm-12 margin5">
 										<div class="message">
-											<div class="alert"></div>
+											<div class="alert">
+												<li id="alert_message"></li>
+											</div>
 										</div>
 									</div>
 								</form>

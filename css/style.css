@@ -329,6 +329,7 @@ blockquote:hover {
 form .btn {
 	display: inline-block;
 	margin: 0;
+	font-size: 18x;
 }
 
 form .btn {
@@ -340,7 +341,7 @@ form .btn {
 }
 
 form .btn:hover {
-	background: #3e2c5a;
+	background: #3594a2;
 	color: #fff;
 }
 
@@ -360,12 +361,13 @@ form .btn:focus {
 }
 
 .flowuplabels .fl_label {
-	top: 12px;
+	top: 6px;
 	position: absolute;
 	z-index: 3;
 	-webkit-transition: all .1s linear;
 	-moz-transition: all .1s linear;
 	-transition: all .1s linear;
+	font-size: 20px;
 }
 
 .flowuplabels .fl_input {
@@ -373,8 +375,9 @@ form .btn:focus {
 	border: none;
 	border-bottom: 1px solid #ccc;
 	border-radius: 0;
-	padding: 13px 0 0 0;
+	padding: 13px 0px 10px 0px;
 	z-index: 2;
+	font-size: 24px;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
@@ -382,8 +385,8 @@ form .btn:focus {
  
 .flowuplabels .fl_wrap.focused .fl_label,
 .flowuplabels .fl_wrap.populated .fl_label {
-	top: -5px;
-	font-size: 12px;
+	top: -30px;
+	font-size: 19px;
 }
 
 .flowuplabels .fl_wrap.focused .fl_label {
