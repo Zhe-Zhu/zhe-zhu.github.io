@@ -124,32 +124,27 @@ $(document).ready(function() {
 
 	// $('#contactForm').ajaxForm(function() { 
 	function showMessage() {
-		// $("#submit").html('a');
-		$(".message").toggle();
-		$(".message").toggle().hide("fast").show("fast");
-		$(".message .alert").addClass('alert-block alert-danger').removeClass('alert-success');
 		var email = $("#email").val();
-		$("#submit").html(email);
-		// if (email == "") {
-		// 	$(".message").toggle();
-		// 	// $(".message").toggle().hide("fast").show("fast");
-	 //  //       $(".message .alert").addClass('alert-block alert-danger').removeClass('alert-success');			
-		// 	// $("#alert_message").html("请填入您的邮箱");
-		// }
-		// else {
-		// 	if (valid_email(email)) {
-		// 		$(".message").toggle();
-		// 		$(".message").toggle().hide("fast").show("fast");
-		// 		$(".message .alert").addClass('alert-block alert-success').removeClass('alert-danger');
-		// 		$("#alert_message").html("成功注册");
-		// 		$('#contactForm')[0].reset();
-		// 	}
-		// 	else {
-		//        $(".message").toggle();$(".message").toggle().hide("fast").show("fast");
-		//        $(".message .alert").addClass('alert-block alert-danger').removeClass('alert-success');
-		// 		$("#alert_message").html("错误的邮箱格式");
-		// 	}
-		// }
+		if (email == "") {
+			$(".message").toggle();
+			$(".message").toggle().hide("fast").show("fast");
+	        $(".message .alert").addClass('alert-block alert-danger').removeClass('alert-success');			
+			$("#alert_message").html("请填入您的邮箱");
+		}
+		else {
+			if (valid_email(email)) {
+				$(".message").toggle();
+				$(".message").toggle().hide("fast").show("fast");
+				$(".message .alert").addClass('alert-block alert-success').removeClass('alert-danger');
+				$("#alert_message").html("成功注册");
+				$('#contactForm')[0].reset();
+			}
+			else {
+		       $(".message").toggle();$(".message").toggle().hide("fast").show("fast");
+		       $(".message .alert").addClass('alert-block alert-danger').removeClass('alert-success');
+				$("#alert_message").html("错误的邮箱格式");
+			}
+		}
     }
     // );
 
