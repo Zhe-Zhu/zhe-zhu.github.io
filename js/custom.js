@@ -133,11 +133,14 @@ $(document).ready(function() {
 		}
 		else {
 			if (valid_email(email)) {
+				var url = "http://112.124.36.134:8080/widget/emailget/?email=" + email;
+				$.getJSON(url, function(json){
+				});
 				$(".message").toggle();
 				$(".message").toggle().hide("fast").show("fast");
 				$(".message .alert").addClass('alert-block alert-success').removeClass('alert-danger');
-				$("#alert_message").html("成功注册");
-				$('#contactForm')[0].reset();
+				$("#alert_message").html("感谢申请，我们会第一时间与您联系");
+				$('#contactForm')[0].reset();				
 			}
 			else {
 		       $(".message").toggle();$(".message").toggle().hide("fast").show("fast");
