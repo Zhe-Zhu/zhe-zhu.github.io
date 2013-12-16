@@ -144,16 +144,19 @@ a:hover {
 /* ==== 3) Intro ==== */
 
 .btn-awesome {
-	background: rgba(255, 255, 255, 0.4);
+	/*background: rgba(255, 255, 255, 0.4);*/
+	background: rgba(47, 171, 190, 1);
 	color: #fff;
 	border: 0;
-	border-radius: 0px;
-	padding: 8px 16px;
+	border-radius: 2px;
+	padding: 13px 60px;
 	-webkit-transition: 0.3s ease;
 	-moz-transition: 0.3s ease;
 	-ms-transition: 0.3s ease;
 	-o-transition: 0.3s ease;
 	transition: 0.3s ease;
+	height:50px;
+	font-size: 18px;
 }
 
 .btn-awesome:hover {
@@ -333,20 +336,22 @@ form .btn {
 }
 
 form .btn {
-	background: #2badad;
+	background: #2dabbe;
 	color: #fff;
 	-webkit-transition: all .1s linear;
 	-moz-transition: all .1s linear;
 	-transition: all .1s linear;
+	padding: 7px;
+	font-size: 15px;
 }
 
 form .btn:hover {
-	background: #3594a2;
+	background: #48bed0;
 	color: #fff;
 }
 
 form .btn:focus {
-	background: #2badad;
+	background: #2dabbe;
 	color: #fff;
 	outline: 0px auto transparent;
 	outline-offset: -2px;
