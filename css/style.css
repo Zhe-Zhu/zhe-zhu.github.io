@@ -72,7 +72,7 @@ body {
 /* ==== 2) Typography ==== */
 
 p {
-	font-family: : 'Open Sans', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-family: 'Open Sans', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 	color: #A0AAB4;
 	margin: 25px 0;
 	font-size: 20px;
@@ -121,7 +121,7 @@ h3 a {
 }
 
 h4 {
-	font-family: : 'Open Sans', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-family: 'Open Sans', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 	font-size: 24px;
 	color: #eeeeee;
 	margin: 40px 0px 0px 0px;
@@ -139,6 +139,11 @@ a {
 a:hover {
 	color: #3e2c5a;
 	text-decoration: none;
+}
+
+a i{
+	color: #fff;
+	font-family: 'Open Sans', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 /* ==== 3) Intro ==== */
