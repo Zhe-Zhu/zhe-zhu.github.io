@@ -153,15 +153,15 @@ a i{
 	background: rgba(47, 171, 190, 1);
 	color: #fff;
 	border: 0;
-	border-radius: 2px;
-	padding: 13px 60px;
+	border-radius: 6px;
+	padding: 19px 90px;
 	-webkit-transition: 0.3s ease;
 	-moz-transition: 0.3s ease;
 	-ms-transition: 0.3s ease;
 	-o-transition: 0.3s ease;
 	transition: 0.3s ease;
-	height:50px;
-	font-size: 18px;
+	height:70px;
+	font-size: 22px;
 }
 
 .btn-awesome:hover {
