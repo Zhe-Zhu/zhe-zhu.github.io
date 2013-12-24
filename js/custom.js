@@ -90,9 +90,9 @@ $(document).ready(function() {
 /* ==== 4) Background Stretch and Slide ==== */
 
 	$("#home, #terms").backstretch([
-		"img/bg_1.jpg",
+		// "img/bg_1.jpg",
 		"img/bg_2.jpg",
-		"img/bg_3.jpg"    
+		// "img/bg_3.jpg"    
 	], {duration: 5000, fade: 500});
 
 /* ==== 5) Responsive video ==== */
