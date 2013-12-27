@@ -385,9 +385,9 @@ form .btn:focus {
 	border: none;
 	border-bottom: 1px solid #ccc;
 	border-radius: 0;
-	padding: 13px 0px 10px 0px;
+	padding: 1px 0px 0px 0px;
 	z-index: 2;
-	font-size: 24px;
+	font-size: 22px;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
