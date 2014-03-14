@@ -128,6 +128,16 @@ h4 {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4), -1px -1px 1px rgba(0, 0, 0, 0.05);
 }
 
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	color: #464646;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 1;
+	margin: 15px 0 7px 0;
+	-webkit-text-stroke: 0.03em;
+}
+
 span {
 	color: #2badad;
 }
@@ -165,7 +175,7 @@ a i{
 }
 
 .btn-awesome:hover {
-	background: rgba(255, 255, 255, 0.3);
+	background: rgba(200, 200, 200, 0.3);
 	color: #000 !important;
 }
 
